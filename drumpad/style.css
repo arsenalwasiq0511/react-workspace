@@ -1,0 +1,52 @@
+body {
+	background: black;
+	color: #b5b5b5;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px;
+	color: #cccccc;
+	font-size: 48px;
+}
+
+.container {
+	border: 3px solid #871600;
+	width: 40%;
+	margin: auto;
+	background: #2a2a2a;
+	text-align: center;
+}
+
+.column {
+	display: inline-block;
+	border: 0px dotted gray;
+	margin: auto;
+	padding: 25px;
+
+}
+
+.row {
+	display: block;
+	border: 0px solid black;
+	margin: 1px;
+}
+
+.pad {
+	border: 5px solid #110404;
+	float: none;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	justify-content: center;
+	margin: 2px;
+	
+}
+
+.pressed {
+	color: white;
+	background-color: #cc0e0e;
+	border-color: #fffdb5;
+}
